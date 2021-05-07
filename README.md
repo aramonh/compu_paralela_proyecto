@@ -1,0 +1,1 @@
+# compu_paralela_proyecto
