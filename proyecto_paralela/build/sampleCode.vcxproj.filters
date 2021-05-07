@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\adria\Documents\UNIVERSIDAD 2021\COMPU PARALELO\compu_paralela_proyecto\proyecto_paralela\sampleCode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\adria\Documents\UNIVERSIDAD 2021\COMPU PARALELO\compu_paralela_proyecto\proyecto_paralela\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8A5DA1BF-6D14-3D6D-B123-4D7BCFF4F470}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

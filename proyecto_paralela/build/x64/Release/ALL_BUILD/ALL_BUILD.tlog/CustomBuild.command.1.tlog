@@ -1,0 +1,10 @@
+^C:\USERS\ADRIA\DOCUMENTS\UNIVERSIDAD 2021\COMPU PARALELO\COMPU_PARALELA_PROYECTO\PROYECTO_PARALELA\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/adria/Documents/UNIVERSIDAD 2021/COMPU PARALELO/compu_paralela_proyecto/proyecto_paralela" "-BC:/Users/adria/Documents/UNIVERSIDAD 2021/COMPU PARALELO/compu_paralela_proyecto/proyecto_paralela/build" --check-stamp-file "C:/Users/adria/Documents/UNIVERSIDAD 2021/COMPU PARALELO/compu_paralela_proyecto/proyecto_paralela/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^C:\USERS\ADRIA\DOCUMENTS\UNIVERSIDAD 2021\COMPU PARALELO\COMPU_PARALELA_PROYECTO\PROYECTO_PARALELA\BUILD\CMAKEFILES\48B94ED473AED0E01D6F7E1C378FFDDB\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/adria/Documents/UNIVERSIDAD 2021/COMPU PARALELO/compu_paralela_proyecto/proyecto_paralela" "-BC:/Users/adria/Documents/UNIVERSIDAD 2021/COMPU PARALELO/compu_paralela_proyecto/proyecto_paralela/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/adria/Documents/UNIVERSIDAD 2021/COMPU PARALELO/compu_paralela_proyecto/proyecto_paralela/build/Project_Name.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,3 @@
+C:/Users/adria/Documents/UNIVERSIDAD 2021/COMPU PARALELO/compu_paralela_proyecto/proyecto_paralela/build/CMakeFiles/sampleCode.dir
+C:/Users/adria/Documents/UNIVERSIDAD 2021/COMPU PARALELO/compu_paralela_proyecto/proyecto_paralela/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/adria/Documents/UNIVERSIDAD 2021/COMPU PARALELO/compu_paralela_proyecto/proyecto_paralela/build/CMakeFiles/ZERO_CHECK.dir
